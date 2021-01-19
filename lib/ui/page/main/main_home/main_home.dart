@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:mall/constant/app_strings.dart';
-import 'package:mall/ui/widgets/icon_text_arrow_widget.dart';
 import 'package:mall/utils/refresh_state_util.dart';
 import 'package:mall/utils/shared_preferences_util.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';

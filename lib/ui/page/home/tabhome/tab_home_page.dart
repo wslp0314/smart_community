@@ -42,6 +42,7 @@ class _TabHomePageState extends State<TabHomePage>
         appBar: GradientAppBar(
           // Here we take the value from the MyHomePage object that was created by
           // the App.build method, and use it to set our appbar title.
+          // 渐变色 刘璞
           gradientStart: Color(0xFFFF5555),
           gradientEnd: Color(0xFFFF841D),
           actions: [

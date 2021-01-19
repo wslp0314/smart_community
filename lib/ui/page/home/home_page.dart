@@ -10,6 +10,7 @@ import 'package:mall/ui/page/home/tab_mine_page.dart';
 import 'package:mall/ui/page/home/tabhome/tab_home_page.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:mall/ui/page/main/main_home/main_home.dart';
+import 'package:mall/ui/page/main/main_shop.dart';
 import 'package:mall/utils/shared_preferences_util.dart';
 import 'package:mall/utils/navigator_util.dart';
 
@@ -86,7 +87,7 @@ class _HomePageState extends State<HomePage> {
 
     _list
       ..add(MainHome())
-      ..add(TabCategoryPage())
+      ..add(MainShop())
       ..add(TabCartPage())
       ..add(TabMinePage());
   }
